@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Button from '@material-ui/core/Button'
 import './App.css'
 import cards from './cards.json'
 
@@ -49,9 +50,9 @@ function App () {
   return (
     <div>
       <b>Instants</b>
-      <button onClick={() => setTypes(new Set(['Instant']))}>Instant</button>
-      <button onClick={() => setTypes(new Set(['Sorcery']))}>Sorcery</button>
-      <button onClick={() => setColors(new Set(['C', 'W']))}>W</button>
+      <Button variant='contained' color='primary' onClick={() => setTypes(new Set(['Instant']))}>Instant</Button>
+      <Button variant='contained' color='primary' onClick={() => setTypes(new Set(['Sorcery']))}>Sorcery</Button>
+      <Button variant='contained' color='primary' onClick={() => setColors(new Set(['C', 'W']))}>W</Button>
       {renderMatches(types, maxCMC, colors)}
     </div>
   )
