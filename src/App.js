@@ -148,7 +148,7 @@ const StyledColorlessIconButton = withStyles({
 const SelectedRarityIconButton = withStyles({
   label: {
     padding: 10,
-    boxShadow: 'inset 0 0 12px 10px rgb(255 255 255 / 10%), 0 0 5px 3px rgb(255 255 255 / 10%)',
+    boxShadow: 'inset 0 0 12px 10px rgb(255 255 255 / 15%), 0 0 5px 3px rgb(255 255 255 / 15%)',
     borderRadius: 100
   }
 })(IconButton)
@@ -158,7 +158,8 @@ const StyledChip = withStyles({
     marginLeft: 10,
     width: 38,
     height: 38,
-    borderRadius: 18
+    borderRadius: '100%',
+    boxShadow: '-0.5px 2px 1px black'
   },
   label: {
     fontFamily: 'serif',
@@ -167,10 +168,20 @@ const StyledChip = withStyles({
   }
 })(Chip)
 
+const TypographyShadow = styled(Typography)`
+  text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
+`
+
+const UnselectedIconButton = styled(IconButton)`
+  opacity: 0.4;
+  :hover {
+    opacity: 0.9;
+  }
+`
+
 const types = new Set(['Instant'])
 
 function App () {
-  // const [types, setTypes] = useState(new Set(['Instant']))
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
   const [maxCMC, setMaxCMC] = useState(4)
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
@@ -182,7 +193,7 @@ function App () {
   const renderMatches = (types, maxCMC, colors) => {
     const matches = getMatches(types, maxCMC, colors)
     if (matches.length === 0) {
-      return <Typography variant='h6' gutterBottom>No cards match your filters</Typography>
+      return <TypographyShadow variant='h6' gutterBottom>No cards match your filters</TypographyShadow>
     }
     const images = []
     for (let i = maxCMC; i > 0; i--) {
@@ -200,7 +211,6 @@ function App () {
     const uncommons = cards.filter(c => c.rarity === 'uncommon')
     const rares = cards.filter(c => c.rarity === 'rare')
     const mythics = cards.filter(c => c.rarity === 'mythic')
-    // const raresAndMythics = cards.filter(c => ['rare', 'mythic'].includes(c.rarity))
     return (
       <div>
         {
@@ -279,24 +289,6 @@ function App () {
               )
             : ''
         }
-        {/* {
-          raresAndMythics.length > 0
-            ? (
-              <div>
-                <Typography
-                  variant='h6'
-                  style={{ fontSize: 16 }}
-                  gutterBottom
-                >
-                  {raresAndMythics.length === 1
-                    ? raresAndMythics[0].rarity === 'rare' ? '1 RARE' : '1 MYTHIC'
-                    : `${raresAndMythics.length} RARES AND MYTHICS`}
-                </Typography>
-                {renderImages(raresAndMythics)}
-              </div>
-              )
-            : ''
-        } */}
       </div>
     )
   }
@@ -320,9 +312,9 @@ function App () {
       return (
         <div style={{ marginBottom: 30 }}>
           <div style={{ display: 'flex', alignItems: 'baseline' }}>
-            <Typography variant='h5' style={{ fontWeight: 600, height: 38 }}>
+            <TypographyShadow variant='h5' style={{ fontWeight: 600, height: 38 }}>
               MANA VALUE
-            </Typography>
+            </TypographyShadow>
             <StyledChip label={CMC} />
           </div>
           {renderImagesByRarity(filteredCards)}
@@ -353,12 +345,12 @@ function App () {
 
   return (
     <Container>
-      <Typography variant='h3' gutterBottom>What instants could my opponent have?</Typography>
+      <TypographyShadow variant='h3' gutterBottom>What instants could my opponent have?</TypographyShadow>
       <OptionsContainer>
         <ButtonContainer>
           <ColorsHeader>
             <Tooltip title='All colors are selected by default' placement='top-start'>
-              <Typography variant='h6' gutterBottom>COLORS</Typography>
+              <TypographyShadow variant='h6' gutterBottom>COLORS</TypographyShadow>
             </Tooltip>
             {colors.size === 0
               ? (
@@ -390,9 +382,9 @@ function App () {
                 </StyledWhiteIconButton>
                 )
               : (
-                <IconButton onClick={() => toggleColor('W')} color='primary' aria-label='White Mana' component='span'>
+                <UnselectedIconButton onClick={() => toggleColor('W')} color='primary' aria-label='White Mana' component='span'>
                   <White width={50} />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Blue' placement='bottom'>
@@ -403,9 +395,9 @@ function App () {
                 </StyledBlueIconButton>
                 )
               : (
-                <IconButton onClick={() => toggleColor('U')} color='primary' aria-label='Blue Mana' component='span'>
+                <UnselectedIconButton onClick={() => toggleColor('U')} color='primary' aria-label='Blue Mana' component='span'>
                   <Blue width={50} />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Black' placement='bottom'>
@@ -416,9 +408,9 @@ function App () {
                 </StyledBlackIconButton>
                 )
               : (
-                <IconButton onClick={() => toggleColor('B')} color='primary' aria-label='Black Mana' component='span'>
+                <UnselectedIconButton onClick={() => toggleColor('B')} color='primary' aria-label='Black Mana' component='span'>
                   <Black width={50} />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Red' placement='bottom'>
@@ -429,9 +421,9 @@ function App () {
                 </StyledRedIconButton>
                 )
               : (
-                <IconButton onClick={() => toggleColor('R')} color='primary' aria-label='Red Mana' component='span'>
+                <UnselectedIconButton onClick={() => toggleColor('R')} color='primary' aria-label='Red Mana' component='span'>
                   <Red width={50} />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Green' placement='bottom'>
@@ -442,9 +434,9 @@ function App () {
                 </StyledGreenIconButton>
                 )
               : (
-                <IconButton onClick={() => toggleColor('G')} color='primary' aria-label='Green Mana' component='span'>
+                <UnselectedIconButton onClick={() => toggleColor('G')} color='primary' aria-label='Green Mana' component='span'>
                   <Green width={50} />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Colorless' placement='bottom'>
@@ -455,18 +447,16 @@ function App () {
                 </StyledColorlessIconButton>
                 )
               : (
-                <IconButton onClick={() => toggleColor('C')} color='primary' aria-label='Colorless Mana' component='span'>
+                <UnselectedIconButton onClick={() => toggleColor('C')} color='primary' aria-label='Colorless Mana' component='span'>
                   <Colorless width={50} />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
         </ButtonContainer>
-        {/* <Button variant='contained' color='primary' onClick={() => setTypes(new Set(['Instant']))}>Instant</Button>
-      <Button variant='contained' color='primary' onClick={() => setTypes(new Set(['Sorcery']))}>Sorcery</Button> */}
         <RarityContainer>
           <ColorsHeader>
             <Tooltip title='All rarities are selected by default' placement='top-start'>
-              <Typography variant='h6' gutterBottom>RARITIES</Typography>
+              <TypographyShadow variant='h6' gutterBottom>RARITIES</TypographyShadow>
             </Tooltip>
             {rarities.size === 0
               ? (
@@ -498,9 +488,9 @@ function App () {
                 </SelectedRarityIconButton>
                 )
               : (
-                <IconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
+                <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
                   <SetIconLarge className='ss ss-common ss-grad ss-stx' />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Uncommon' placement='bottom'>
@@ -511,9 +501,9 @@ function App () {
                 </SelectedRarityIconButton>
                 )
               : (
-                <IconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
+                <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
                   <SetIconLarge className='ss ss-uncommon ss-grad ss-stx' />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
 
           </Tooltip>
@@ -525,9 +515,9 @@ function App () {
                 </SelectedRarityIconButton>
                 )
               : (
-                <IconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
+                <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
                   <SetIconLarge className='ss ss-rare ss-grad ss-stx' />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
           <Tooltip title='Mythic' placement='bottom'>
@@ -538,15 +528,15 @@ function App () {
                 </SelectedRarityIconButton>
                 )
               : (
-                <IconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
+                <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
                   <SetIconLarge className='ss ss-mythic ss-grad ss-stx' />
-                </IconButton>
+                </UnselectedIconButton>
                 )}
           </Tooltip>
         </RarityContainer>
         <ManaCostContainer>
           <Tooltip title='How much mana your opponent has up' placement='top-start'>
-            <Typography style={{ marginBottom: 32 }} variant='h6' gutterBottom>MAX CMC</Typography>
+            <TypographyShadow style={{ marginBottom: 32 }} variant='h6' gutterBottom>MAX CMC</TypographyShadow>
           </Tooltip>
           <SliderContainer>
             <Slider
