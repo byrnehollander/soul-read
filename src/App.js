@@ -18,7 +18,7 @@ import { ReactComponent as Red } from './assets/red.svg'
 import { ReactComponent as White } from './assets/white.svg'
 
 const Container = styled.div`
-  margin: 60px;
+  margin: 5vw;
 `
 
 const OptionsContainer = styled.div`
@@ -56,6 +56,7 @@ const ManaCostContainer = styled.div`
 
 const SliderContainer = styled.div`
   width: 430px;
+  max-width: 90vw;
 `
 
 const RarityRow = styled.div`
