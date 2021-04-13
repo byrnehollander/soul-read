@@ -380,7 +380,7 @@
     "colors": ["U"],
     "cmc": 2,
     "text": "Flash\nWhen Burrog Befuddler enters the battlefield, target creature an opponent controls gets -1/-0 until end of turn.",
-    "types": [ "Creature" ],
+    "types": [ "Creature", "Instant" ],
     "rarity": "common",
     "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/6040c573-cd8c-4593-8ade-d9922482035c.jpg?1617451444"
   },
