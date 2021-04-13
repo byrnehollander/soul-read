@@ -24,7 +24,7 @@ const Container = styled.div`
 const OptionsContainer = styled.div`
   display: flex;
   margin-bottom: 50px;
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 1300px) {
     flex-direction: column;
   }
 `
@@ -41,7 +41,7 @@ const ColorsHeader = styled.div`
 const RarityContainer = styled.div`
   margin-top: 40px;
   margin-left: 50px;
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 1300px) {
     margin-left: 0px;
   }
 `
@@ -49,13 +49,13 @@ const RarityContainer = styled.div`
 const ManaCostContainer = styled.div`
   margin-left: 50px;
   margin-top: 40px;
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 1300px) {
     margin-left: 0px;
   }
 `
 
 const SliderContainer = styled.div`
-  width: 430px;
+  width: 300px;
   max-width: 90vw;
 `
 
@@ -538,7 +538,7 @@ function App () {
         </RarityContainer>
         <ManaCostContainer>
           <Tooltip title='How much mana your opponent has up' placement='top-start'>
-            <TypographyShadow style={{ marginBottom: 32 }} variant='h6' gutterBottom>MAX CMC</TypographyShadow>
+            <TypographyShadow style={{ marginBottom: 38 }} variant='h6' gutterBottom>MAX CMC</TypographyShadow>
           </Tooltip>
           <SliderContainer>
             <Slider
