@@ -213,7 +213,7 @@ function App () {
                   gutterBottom
                 >
                   <RarityRow>
-                    {commons.length === 1 ? '1 COMMON' : `${commons.length} COMMONS`}
+                    {commons.length === 1 ? '1 Common' : `${commons.length} Commons`}
                     <SetIconSmall className='ss ss-common ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
@@ -232,7 +232,7 @@ function App () {
                   gutterBottom
                 >
                   <RarityRow>
-                    {uncommons.length === 1 ? '1 UNCOMMON' : `${uncommons.length} UNCOMMONS`}
+                    {uncommons.length === 1 ? '1 Uncommon' : `${uncommons.length} Uncommons`}
                     <SetIconSmall className='ss ss-uncommon ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
@@ -251,7 +251,7 @@ function App () {
                   gutterBottom
                 >
                   <RarityRow>
-                    {rares.length === 1 ? '1 RARE' : `${rares.length} RARES`}
+                    {rares.length === 1 ? '1 Rare' : `${rares.length} Rares`}
                     <SetIconSmall className='ss ss-rare ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
@@ -270,7 +270,7 @@ function App () {
                   gutterBottom
                 >
                   <RarityRow>
-                    {mythics.length === 1 ? '1 MYTHIC' : `${mythics.length} MYTHICS`}
+                    {mythics.length === 1 ? '1 Mythic' : `${mythics.length} Mythics`}
                     <SetIconSmall className='ss ss-mythic ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
