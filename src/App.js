@@ -30,6 +30,14 @@ const OptionsContainer = styled.div`
   }
 `
 
+const FlexContainer = styled.div`
+  display: flex;
+`
+
+const FlexBaselineContainer = styled(FlexContainer)`
+  align-items: baseline;
+`
+
 const ButtonContainer = styled.div`
   margin-top: 40px;
 `
@@ -230,9 +238,9 @@ function App () {
                     <SetIconSmall className='ss ss-common ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
-                <div style={{ display: 'flex' }}>
+                <FlexContainer>
                   {renderImages(commons)}
-                </div>
+                </FlexContainer>
               </div>
               )
             : ''
@@ -251,7 +259,9 @@ function App () {
                     <SetIconSmall className='ss ss-uncommon ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
-                {renderImages(uncommons)}
+                <FlexContainer>
+                  {renderImages(uncommons)}
+                </FlexContainer>
               </div>
               )
             : ''
@@ -270,7 +280,9 @@ function App () {
                     <SetIconSmall className='ss ss-rare ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
-                {renderImages(rares)}
+                <FlexContainer>
+                  {renderImages(rares)}
+                </FlexContainer>
               </div>
               )
             : ''
@@ -289,7 +301,9 @@ function App () {
                     <SetIconSmall className='ss ss-mythic ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
-                {renderImages(mythics)}
+                <FlexContainer>
+                  {renderImages(mythics)}
+                </FlexContainer>
               </div>
               )
             : ''
@@ -318,12 +332,12 @@ function App () {
     if (filteredCards.length > 0) {
       return (
         <div style={{ marginBottom: 30 }}>
-          <div style={{ display: 'flex', alignItems: 'baseline' }}>
+          <FlexBaselineContainer>
             <TypographyShadow variant='h5' style={{ fontWeight: 600, height: 38 }}>
               MANA VALUE
             </TypographyShadow>
             <StyledChip label={CMC} />
-          </div>
+          </FlexBaselineContainer>
           {renderImagesByRarity(filteredCards)}
         </div>
       )
