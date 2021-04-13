@@ -12,9 +12,9 @@
 
 @font-face {
   font-family: 'Numbers';
-  src: url('./assets/fonts/Numbers-Regular.otf') format("opentype"),
-    url('./assets/fonts/Numbers-Regular.woff2') format('woff2'),
-    url('./assets/fonts/Numbers-Regular.woff2') format('woff');
+  src: url('./assets/fonts/Numbers-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Numbers-Regular.woff2') format('woff'),
+    url('./assets/fonts/Numbers-Regular.otf') format("opentype");
   font-weight: normal;
   font-style: normal;
 }
