@@ -1,7 +1,7 @@
 {
   "name": "soul-read",
   "version": "0.1.0",
-  "homepage": "https://byrnehollander.github.io/soul-read",
+  "homepage": "https://soulread.xyz",
   "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
