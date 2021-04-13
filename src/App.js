@@ -162,8 +162,10 @@ const StyledChip = withStyles({
     boxShadow: '-0.5px 2px 1px black'
   },
   label: {
-    fontFamily: 'serif',
-    fontSize: 26,
+    fontFamily: 'Numbers',
+    fontSize: 27,
+    height: 43,
+    textOverflow: 'clip',
     fontWeight: 600
   }
 })(Chip)
