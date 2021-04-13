@@ -315,17 +315,19 @@ function App () {
 
   const renderMatchesByCMC = (elements, CMC) => {
     const filteredCards = filterByCMC(elements, CMC).sort((a, b) => a.name.localeCompare(b.name))
-    return (
-      <div style={{ marginBottom: 30 }}>
-        <div style={{ display: 'flex', alignItems: 'baseline' }}>
-          <Typography variant='h5' style={{ fontWeight: 600, height: 38 }}>
-            MANA VALUE
-          </Typography>
-          <StyledChip label={CMC} />
+    if (filteredCards.length > 0) {
+      return (
+        <div style={{ marginBottom: 30 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline' }}>
+            <Typography variant='h5' style={{ fontWeight: 600, height: 38 }}>
+              MANA VALUE
+            </Typography>
+            <StyledChip label={CMC} />
+          </div>
+          {renderImagesByRarity(filteredCards)}
         </div>
-        {filteredCards.length > 0 ? renderImagesByRarity(filteredCards) : 'No cards'}
-      </div>
-    )
+      )
+    }
   }
 
   const toggleColor = (color) => {
