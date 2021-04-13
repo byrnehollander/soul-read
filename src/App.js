@@ -7,6 +7,7 @@ import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
+import Tilty from 'react-tilty'
 import './App.css'
 import './Rune.css'
 import cards from './cards.json'
@@ -229,7 +230,9 @@ function App () {
                     <SetIconSmall className='ss ss-common ss-grad ss-stx' />
                   </RarityRow>
                 </Typography>
-                {renderImages(commons)}
+                <div style={{ display: 'flex' }}>
+                  {renderImages(commons)}
+                </div>
               </div>
               )
             : ''
@@ -298,12 +301,14 @@ function App () {
   const renderImages = (cards) => {
     return cards.map((c, i) => {
       return (
-        <img
+        <Tilty
+          scale={1.12}
+          max={8}
+          style={{ marginRight: 20, marginBottom: 20, width: 'fit-content', height: 'fit-content' }}
           key={i}
-          style={{ marginRight: 20, marginBottom: 20 }}
-          src={c.image}
-          alt={c.name}
-        />
+        >
+          <img src={c.image} alt={c.name} />
+        </Tilty>
       )
     })
   }
