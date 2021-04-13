@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Button from '@material-ui/core/Button'
 import IconButton from '@material-ui/core/IconButton'
 import Slider from '@material-ui/core/Slider'
+import { borders } from '@material-ui/system'
 import './App.css'
 import cards from './cards.json'
 import { ReactComponent as Black } from './assets/black.svg'
@@ -65,19 +66,18 @@ function App () {
     setColors(newColors)
   }
 
+  const displayColors = new Set(colors)
+  displayColors.delete('C')
   return (
     <div>
-      <div>Colors: {colors}</div>
+      <div>Colors: <Colorless width={20} /> {displayColors}</div>
       <b>Instants</b>
       <div>
-        <IconButton onClick={() => toggleColor('B')} color='primary' aria-label='Black Mana' component='span'>
+        <IconButton border={10} borderColor='black' onClick={() => toggleColor('B')} color='primary' aria-label='Black Mana' component='span'>
           <Black width={50} />
         </IconButton>
         <IconButton onClick={() => toggleColor('U')} color='primary' aria-label='Blue Mana' component='span'>
           <Blue width={50} />
-        </IconButton>
-        <IconButton onClick={() => toggleColor('C')} color='primary' aria-label='Colorless Mana' component='span'>
-          <Colorless width={50} />
         </IconButton>
         <IconButton onClick={() => toggleColor('G')} color='primary' aria-label='Green Mana' component='span'>
           <Green width={50} />
