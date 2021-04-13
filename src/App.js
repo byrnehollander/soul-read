@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Button from '@material-ui/core/Button'
+import Chip from '@material-ui/core/Chip'
 import IconButton from '@material-ui/core/IconButton'
 import Slider from '@material-ui/core/Slider'
 import Tooltip from '@material-ui/core/Tooltip'
@@ -150,6 +151,20 @@ const SelectedRarityIconButton = withStyles({
     borderRadius: 100
   }
 })(IconButton)
+
+const StyledChip = withStyles({
+  root: {
+    marginLeft: 10,
+    width: 38,
+    height: 38,
+    borderRadius: 18
+  },
+  label: {
+    fontFamily: 'serif',
+    fontSize: 26,
+    fontWeight: 600
+  }
+})(Chip)
 
 const types = new Set(['Instant'])
 
@@ -302,7 +317,12 @@ function App () {
     const filteredCards = filterByCMC(elements, CMC).sort((a, b) => a.name.localeCompare(b.name))
     return (
       <div style={{ marginBottom: 30 }}>
-        <Typography variant='h5' style={{ fontWeight: 600 }} gutterBottom>CMC {CMC}</Typography>
+        <div style={{ display: 'flex', alignItems: 'baseline' }}>
+          <Typography variant='h5' style={{ fontWeight: 600, height: 38 }}>
+            MANA VALUE
+          </Typography>
+          <StyledChip label={CMC} />
+        </div>
         {filteredCards.length > 0 ? renderImagesByRarity(filteredCards) : 'No cards'}
       </div>
     )
