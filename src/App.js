@@ -185,7 +185,7 @@ const types = new Set(['Instant'])
 
 function App () {
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
-  const [maxCMC, setMaxCMC] = useState(4)
+  const [maxCMC, setMaxCMC] = useState(3)
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
 
   const getMatches = (types, maxCMC, colors) => {
@@ -542,7 +542,7 @@ function App () {
           </Tooltip>
           <SliderContainer>
             <Slider
-              defaultValue={4}
+              defaultValue={3}
               aria-labelledby='discrete-slider-always'
               step={1}
               marks
