@@ -558,7 +558,7 @@ function App () {
         </RarityContainer>
         <ManaCostContainer>
           <Tooltip title='How much mana your opponent has up' placement='top-start'>
-            <TypographyShadow style={{ marginBottom: 38 }} variant='h6' gutterBottom>MAX CMC</TypographyShadow>
+            <TypographyShadow style={{ marginBottom: 38 }} variant='h6' gutterBottom>MAX MANA VALUE</TypographyShadow>
           </Tooltip>
           <SliderContainer>
             <Slider
