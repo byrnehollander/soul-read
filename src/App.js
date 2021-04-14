@@ -10,7 +10,7 @@ import styled from 'styled-components'
 import Tilty from 'react-tilty'
 import './App.css'
 import './Rune.css'
-import cards from './cards.json'
+import cards from './cardsWithRatings.json'
 import { ReactComponent as Black } from './assets/black.svg'
 import { ReactComponent as Blue } from './assets/blue.svg'
 import { ReactComponent as Colorless } from './assets/colorless.svg'
@@ -329,7 +329,7 @@ function App () {
   }
 
   const renderMatchesByCMC = (elements, CMC) => {
-    const filteredCards = filterByCMC(elements, CMC).sort((a, b) => a.name.localeCompare(b.name))
+    const filteredCards = filterByCMC(elements, CMC).sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => b.rating - a.rating)
     if (filteredCards.length > 0) {
       return (
         <div style={{ marginBottom: 30 }}>
