@@ -32,6 +32,7 @@ const OptionsContainer = styled.div`
 
 const FlexContainer = styled.div`
   display: flex;
+  flex-flow: row wrap;
 `
 
 const FlexBaselineContainer = styled(FlexContainer)`
@@ -318,7 +319,7 @@ function App () {
         <Tilty
           scale={1.12}
           max={8}
-          style={{ marginRight: 20, marginBottom: 20, width: 'fit-content', height: 'fit-content' }}
+          style={{ minWidth: 260, marginRight: 10, marginBottom: 20 }}
           key={i}
         >
           <img src={c.image} alt={c.name} />
