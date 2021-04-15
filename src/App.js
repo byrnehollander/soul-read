@@ -226,7 +226,7 @@ function App () {
     const uncommons = cards.filter(c => c.rarity === 'uncommon')
     const rares = cards.filter(c => c.rarity === 'rare')
     const mythics = cards.filter(c => c.rarity === 'mythic')
-    if (groupByRarity) {
+    if (!groupByRarity) {
       const collected = [...commons, ...uncommons, ...rares, ...mythics]
       return (
         <div>
