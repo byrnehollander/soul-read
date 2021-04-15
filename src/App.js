@@ -5,6 +5,8 @@ import IconButton from '@material-ui/core/IconButton'
 import Slider from '@material-ui/core/Slider'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
+import FormControlLabel from '@material-ui/core/FormControlLabel'
+import Switch from '@material-ui/core/Switch'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import Tilty from 'react-tilty'
@@ -25,7 +27,7 @@ const Container = styled.div`
 const OptionsContainer = styled.div`
   display: flex;
   margin-bottom: 50px;
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1485px) {
     flex-direction: column;
   }
 `
@@ -51,7 +53,7 @@ const ColorsHeader = styled.div`
 const RarityContainer = styled.div`
   margin-top: 40px;
   margin-left: 50px;
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1485px) {
     margin-left: 0px;
   }
 `
@@ -59,7 +61,7 @@ const RarityContainer = styled.div`
 const ManaCostContainer = styled.div`
   margin-left: 50px;
   margin-top: 40px;
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1485px) {
     margin-left: 0px;
   }
 `
@@ -196,6 +198,7 @@ const types = new Set(['Instant'])
 function App () {
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
   const [maxCMC, setMaxCMC] = useState(3)
+  const [groupByRarity, setGroupByRarity] = useState(true)
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
 
   const getMatches = (types, maxCMC, colors) => {
@@ -223,6 +226,26 @@ function App () {
     const uncommons = cards.filter(c => c.rarity === 'uncommon')
     const rares = cards.filter(c => c.rarity === 'rare')
     const mythics = cards.filter(c => c.rarity === 'mythic')
+    if (groupByRarity) {
+      const collected = [...commons, ...uncommons, ...rares, ...mythics]
+      return (
+        <div>
+          <Typography
+            variant='h6'
+            style={{ fontSize: 16 }}
+            gutterBottom
+          >
+            <RarityRow>
+              {collected.length === 1 ? '1 Card' : `${collected.length} Cards`}
+            </RarityRow>
+          </Typography>
+          <FlexContainer>
+            {renderImages(collected)}
+          </FlexContainer>
+        </div>
+      )
+    }
+
     return (
       <div>
         {
@@ -555,6 +578,18 @@ function App () {
                 </UnselectedIconButton>
                 )}
           </Tooltip>
+          <FormControlLabel
+            style={{ marginLeft: 10 }}
+            control={
+              <Switch
+                checked={groupByRarity}
+                onChange={() => setGroupByRarity(!groupByRarity)}
+                name='rarity-grouping'
+                color='primary'
+              />
+        }
+            label='Group by rarity'
+          />
         </RarityContainer>
         <ManaCostContainer>
           <Tooltip title='How much mana your opponent has up' placement='top-start'>
