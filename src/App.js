@@ -77,7 +77,7 @@ const RarityRow = styled.div`
 `
 
 const SetIconLarge = styled.span`
-  font-size: 30px;
+  font-size: 40px;
 `
 
 const SetIconSmall = styled.span`
@@ -146,7 +146,7 @@ const StyledColorlessIconButton = withStyles({
 
 const SelectedRarityIconButton = withStyles({
   label: {
-    padding: 10,
+    padding: 4,
     boxShadow: 'inset 0 0 12px 10px rgb(255 255 255 / 15%), 0 0 5px 3px rgb(255 255 255 / 15%)',
     borderRadius: 100
   }
