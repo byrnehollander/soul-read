@@ -12,7 +12,7 @@ import styled from 'styled-components'
 import Tilty from 'react-tilty'
 import './App.css'
 import './Rune.css'
-import cards from './AFR.json'
+import cards from './MID.json'
 import { ReactComponent as Black } from './assets/black.svg'
 import { ReactComponent as Blue } from './assets/blue.svg'
 import { ReactComponent as Colorless } from './assets/colorless.svg'
@@ -48,6 +48,7 @@ const ButtonContainer = styled.div`
 const ColorsHeader = styled.div`
   display: flex;
   align-items: end;
+  margin-bottom: 15px;
 `
 
 const RarityContainer = styled.div`
@@ -74,6 +75,7 @@ const SliderContainer = styled.div`
 const RarityRow = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 `
 
 const SetIconLarge = styled.span`
@@ -171,6 +173,7 @@ const StyledChip = withStyles({
 
 const TypographyShadow = styled(Typography)`
   text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
+  margin-bottom: 0px;
 `
 
 const UnselectedIconButton = styled(IconButton)`
@@ -246,7 +249,7 @@ function App () {
                 >
                   <RarityRow>
                     {commons.length === 1 ? '1 Common' : `${commons.length} Commons`}
-                    <SetIconSmall className='ss ss-common ss-grad ss-afr' />
+                    <SetIconSmall className='ss ss-common ss-grad ss-mid' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -267,7 +270,7 @@ function App () {
                 >
                   <RarityRow>
                     {uncommons.length === 1 ? '1 Uncommon' : `${uncommons.length} Uncommons`}
-                    <SetIconSmall className='ss ss-uncommon ss-grad ss-afr' />
+                    <SetIconSmall className='ss ss-uncommon ss-grad ss-mid' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -288,7 +291,7 @@ function App () {
                 >
                   <RarityRow>
                     {rares.length === 1 ? '1 Rare' : `${rares.length} Rares`}
-                    <SetIconSmall className='ss ss-rare ss-grad ss-afr' />
+                    <SetIconSmall className='ss ss-rare ss-grad ss-mid' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -309,7 +312,7 @@ function App () {
                 >
                   <RarityRow>
                     {mythics.length === 1 ? '1 Mythic' : `${mythics.length} Mythics`}
-                    <SetIconSmall className='ss ss-mythic ss-grad ss-afr' />
+                    <SetIconSmall className='ss ss-mythic ss-grad ss-mid' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -516,12 +519,12 @@ function App () {
             {rarities.has('common')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-                  <SetIconLarge className='ss ss-common ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-common ss-grad ss-mid' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-                  <SetIconLarge className='ss ss-common ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-common ss-grad ss-mid' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -529,12 +532,12 @@ function App () {
             {rarities.has('uncommon')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-                  <SetIconLarge className='ss ss-uncommon ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-uncommon ss-grad ss-mid' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-                  <SetIconLarge className='ss ss-uncommon ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-uncommon ss-grad ss-mid' />
                 </UnselectedIconButton>
                 )}
 
@@ -543,12 +546,12 @@ function App () {
             {rarities.has('rare')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-                  <SetIconLarge className='ss ss-rare ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-rare ss-grad ss-mid' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-                  <SetIconLarge className='ss ss-rare ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-rare ss-grad ss-mid' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -556,12 +559,12 @@ function App () {
             {rarities.has('mythic')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-                  <SetIconLarge className='ss ss-mythic ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-mythic ss-grad ss-mid' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-                  <SetIconLarge className='ss ss-mythic ss-grad ss-afr' />
+                  <SetIconLarge className='ss ss-mythic ss-grad ss-mid' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>

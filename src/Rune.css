@@ -228,3 +228,11 @@
 .ss-afr:before {
   content: "\e972";
 }
+
+.ss-mid:before {
+  content: "\e978";
+}
+
+.ss-duo.ss-mid::after {
+  content: "\e979";
+}
