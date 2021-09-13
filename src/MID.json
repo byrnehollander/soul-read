@@ -1,479 +1,549 @@
 [
-  {
-     "name":"Blessed Defiance",
-     "type":"Instant",
-     "colors":[
-        "W"
-     ],
-     "cmc":1,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/1555cdcb-3471-4ee7-99c3-d05311bf433c.jpg?1631284968"
-  },
-  {
-     "name":"Bloodline Culling",
-     "type":"Instant",
-     "colors":[
-        "B"
-     ],
-     "cmc":3,
-     "rarity":"rare",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fac827f7-a587-4adf-8408-2d9ccd9c1343.jpg?1631296809"
-  },
-  {
-     "name":"Spectral Adversary",
-     "type":"Creature — Spirit",
-     "colors":[
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"mythic",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/c/7c67fe04-814f-4051-bd13-7c8ee40a6c08.jpg?1630960490"
-  },
-  {
-     "name":"Flare of Faith",
-     "type":"Instant",
-     "colors":[
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1b4354c6-ea21-46c0-93c4-744dbacbfcf4.jpg?1631286419"
-  },
-  {
-     "name":"Geistwave",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0e3d1ac-bec2-4bba-a6cf-a823996dde2d.jpg?1631303739"
-  },
-  {
-     "name":"Rotten Reunion",
-     "type":"Instant",
-     "colors":[
-        "B"
-     ],
-     "cmc":1,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97398ad2-675b-4a34-aab7-935dd6714f1c.jpg?1631303996"
-  },
-  {
-     "name":"Howl of the Hunt",
-     "type":"Enchantment — Aura",
-     "colors":[
-        "G"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7a48a42e-5cc5-4f9a-8745-99936f4cae5f.jpg?1630695571"
-  },
-  {
-     "name":"Bounding Wolf",
-     "type":"Creature — Wolf",
-     "colors":[
-        "G"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74e22ed6-9d39-4feb-8c64-64cdd8313816.jpg?1631300198"
-  },
-  {
-     "name":"Might of the Old Ways",
-     "type":"Instant",
-     "colors":[
-        "G"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6a853679-e9dd-4c05-8688-248de8f12760.jpg?1630607954"
-  },
-  {
-     "name":"Sungold Barrage",
-     "type":"Instant",
-     "colors":[
-        "W"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/e/ee507688-9890-47c4-bb04-43c51eb48e22.jpg?1630920979"
-  },
-  {
-     "name":"Fateful Absence",
-     "type":"Instant",
-     "colors":[
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"rare",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.jpg?1631228327"
-  },
-  {
-     "name":"Moonrager's Slash",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb4f266b-c41c-4047-ae6f-b2226c7459e8.jpg?1631304154"
-  },
-  {
-     "name":"Nebelgast Intruder",
-     "type":"Creature — Spirit",
-     "colors":[
-        "U"
-     ],
-     "cmc":3,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c801346-0052-4f4b-a497-1567a34679fb.jpg?1631331266"
-  },
-  {
-     "name":"Consider",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":1,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a211d505-4d40-4914-a9da-220770d6ddbc.jpg?1631293228"
-  },
-  {
-     "name":"Duel for Dominance",
-     "type":"Instant",
-     "colors":[
-        "G"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9bb0a0c8-158e-4a6f-976e-3de9f57c3463.jpg?1631300381"
-  },
-  {
-     "name":"Secrets of the Key",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":1,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9b022ba8-07b6-4993-99c8-89c6dcb19e60.jpg?1631331314"
-  },
-  {
-     "name":"Corpse Cobble",
-     "type":"Instant",
-     "colors":[
-        "B",
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfe4f48d-179a-47d7-aed6-9751dd2f7d8c.jpg?1631300960"
-  },
-  {
-     "name":"Play with Fire",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":1,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6f1a6c60-a8c4-44c2-b1ea-d3befbabdf43.jpg?1628195671"
-  },
-  {
-     "name":"Fading Hope",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":1,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c2fb1fff-12be-4bd5-8dba-c36e84d49651.jpg?1631221856"
-  },
-  {
-     "name":"Neonate's Rush",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/dee17e12-e08f-4449-9f49-05f20e0d1670.jpg?1631298618"
-  },
-  {
-     "name":"Cathar Commando",
-     "type":"Creature — Human Soldier",
-     "colors":[
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98cbc1c2-b76e-4da3-aa43-00e10b2ce532.jpg?1631286011"
-  },
-  {
-     "name":"Startle",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35f68eb3-9b40-4967-a52e-f95aec6e3fbf.jpg?1630985284"
-  },
-  {
-     "name":"Sacred Fire",
-     "type":"Instant",
-     "colors":[
-        "R",
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c0b1dcd7-6dd9-4134-bc6c-9dc7754006a2.jpg?1631301151"
-  },
-  {
-     "name":"Ritual of Hope",
-     "type":"Instant",
-     "colors":[
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8293903-4604-4516-866e-27a306b6fd7c.jpg?1631058149"
-  },
-  {
-     "name":"Raze the Effigy",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":1,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/0/e0dd378c-5050-48c9-9a16-6d91afa62d21.jpg?1631298798"
-  },
-  {
-     "name":"Infernal Grasp",
-     "type":"Instant",
-     "colors":[
-        "B"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/17824929-f131-4b8d-addb-66c25323155e.jpg?1628195744"
-  },
-  {
-     "name":"Flip the Switch",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cdbe4e3-f030-46fa-ae84-edf261b61706.jpg?1631303696"
-  },
-  {
-     "name":"Olivia's Midnight Ambush",
-     "type":"Instant",
-     "colors":[
-        "B"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c1adede-22ad-4c1c-9501-ad731fbe1742.jpg?1631297476"
-  },
-  {
-     "name":"Siphon Insight",
-     "type":"Instant",
-     "colors":[
-        "B",
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"rare",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d329e2d4-e483-4981-8a0b-6a9a717d50cd.jpg?1631134122"
-  },
-  {
-     "name":"Rite of Harmony",
-     "type":"Instant",
-     "colors":[
-        "G",
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"rare",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb1a16f9-13d4-4188-8e1e-0f2394349c7a.jpg?1631054389"
-  },
-  {
-     "name":"Thraben Exorcism",
-     "type":"Instant",
-     "colors":[
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/0/a0700298-30d2-45a6-bd64-4fd7fa4d7d30.jpg?1631206654"
-  },
-  {
-     "name":"Burn the Accursed",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":5,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff4d4e6b-564d-46da-8e32-09ed08c8ddc5.jpg?1631298157"
-  },
-  {
-     "name":"Faithful Mending",
-     "type":"Instant",
-     "colors":[
-        "U",
-        "W"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/50752ca9-ea85-4c4b-9bf5-4f8759a7dcec.jpg?1631301003"
-  },
-  {
-     "name":"Stolen Vitality",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":2,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d50df2dd-8d14-4d92-ab4e-bf9f9f147e91.jpg?1631298880"
-  },
-  {
-     "name":"Otherworldly Gaze",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":1,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cebee20-869e-45ed-9ddc-843faf4032ad.jpg?1631294190"
-  },
-  {
-     "name":"Defend the Celestus",
-     "type":"Instant",
-     "colors":[
-        "G"
-     ],
-     "cmc":4,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c11e4420-06f3-48e2-91d1-a9199483add2.jpg?1630909380"
-  },
-  {
-     "name":"Galvanic Iteration",
-     "type":"Instant",
-     "colors":[
-        "R",
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"rare",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5f8ee5b-e1f5-4bc8-8ca3-d8308d71f2b9.jpg?1631301047"
-  },
-  {
-     "name":"Electric Revelation",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20ff3289-00fb-4e91-b34f-6255e9de8e9e.jpg?1631298235"
-  },
-  {
-     "name":"Defenestrate",
-     "type":"Instant",
-     "colors":[
-        "B"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df3abdcc-83a8-45c3-9bfd-23f929705018.jpg?1631296825"
-  },
-  {
-     "name":"Blood Pact",
-     "type":"Instant",
-     "colors":[
-        "B"
-     ],
-     "cmc":3,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/607b1066-1ca0-45e1-a55c-30aed77cc8dc.jpg?1631296765"
-  },
-  {
-     "name":"Arcane Infusion",
-     "type":"Instant",
-     "colors":[
-        "R",
-        "U"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9ab520b7-ad87-4c8e-a454-5c022e378564.jpg?1631058240"
-  },
-  {
-     "name":"Revenge of the Drowned",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":4,
-     "rarity":"common",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/93be7d72-927a-40ce-8de4-04a3f21c134b.jpg?1631294261"
-  },
-  {
-     "name":"Lunar Frenzy",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":1,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b5fb18c4-1386-4ea0-97c1-4bdd1e7eb5a6.jpg?1630693909"
-  },
-  {
-     "name":"Memory Deluge",
-     "type":"Instant",
-     "colors":[
-        "U"
-     ],
-     "cmc":4,
-     "rarity":"rare",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc00fd1b-3dd9-492a-9ed4-0b6743074730.jpg?1631221971"
-  },
-  {
-     "name":"Turn the Earth",
-     "type":"Instant",
-     "colors":[
-        "G"
-     ],
-     "cmc":1,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34076a93-9e8f-45d4-a1d7-31f40210a5b6.jpg?1630909445"
-  },
-  {
-     "name":"Loyal Gryff",
-     "type":"Creature — Hippogriff",
-     "colors":[
-        "W"
-     ],
-     "cmc":3,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b4d41ac4-3273-4722-aaa6-ceeba66cf591.jpg?1631299491"
-  },
-  {
-     "name":"Cathartic Pyre",
-     "type":"Instant",
-     "colors":[
-        "R"
-     ],
-     "cmc":2,
-     "rarity":"uncommon",
-     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b045c28a-39f9-4cd9-8f3a-a626b697f409.jpg?1631221911"
-  }
+   {
+      "name":"Bloodline Culling",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":3,
+      "rarity":"rare",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fac827f7-a587-4adf-8408-2d9ccd9c1343.jpg?1631296809"
+   },
+   {
+      "name":"Infernal Grasp",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/17824929-f131-4b8d-addb-66c25323155e.jpg?1628195744"
+   },
+   {
+      "name":"Consider",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":1,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a211d505-4d40-4914-a9da-220770d6ddbc.jpg?1631293228"
+   },
+   {
+      "name":"Blessed Defiance",
+      "type":"Instant",
+      "colors":[
+         "W"
+      ],
+      "cmc":1,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/1555cdcb-3471-4ee7-99c3-d05311bf433c.jpg?1631284968"
+   },
+   {
+      "name":"Flare of Faith",
+      "type":"Instant",
+      "colors":[
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1b4354c6-ea21-46c0-93c4-744dbacbfcf4.jpg?1631286419"
+   },
+   {
+      "name":"Electric Revelation",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20ff3289-00fb-4e91-b34f-6255e9de8e9e.jpg?1631298235"
+   },
+   {
+      "name":"Fateful Absence",
+      "type":"Instant",
+      "colors":[
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"rare",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/c/eca8d6f8-c6f1-437c-99e2-4281eae14a6f.jpg?1631228327"
+   },
+   {
+      "name":"Clear Shot",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":3,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27476d9c-006d-4227-a5f2-49c7234b84a1.jpg?1630666667"
+   },
+   {
+      "name":"Turn the Earth",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":1,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34076a93-9e8f-45d4-a1d7-31f40210a5b6.jpg?1630909445"
+   },
+   {
+      "name":"Startle",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35f68eb3-9b40-4967-a52e-f95aec6e3fbf.jpg?1630985284"
+   },
+   {
+      "name":"Play with Fire",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":1,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6f1a6c60-a8c4-44c2-b1ea-d3befbabdf43.jpg?1628195671"
+   },
+   {
+      "name":"Dissipate",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":3,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4689b3f2-e4b7-448e-b3d4-ab33194aafb2.jpg?1630691772"
+   },
+   {
+      "name":"Faithful Mending",
+      "type":"Instant",
+      "colors":[
+         "U",
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/50752ca9-ea85-4c4b-9bf5-4f8759a7dcec.jpg?1631301003"
+   },
+   {
+      "name":"Plummet",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/5469e696-bbf1-43e3-9c25-fe089b36caed.jpg?1631302387"
+   },
+   {
+      "name":"Flip the Switch",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cdbe4e3-f030-46fa-ae84-edf261b61706.jpg?1631303696"
+   },
+   {
+      "name":"Blood Pact",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/607b1066-1ca0-45e1-a55c-30aed77cc8dc.jpg?1631296765"
+   },
+   {
+      "name":"Devious Cover-Up",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":4,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/4/648281fe-89fb-4d8d-b944-3af28fb044f6.jpg?1631293279"
+   },
+   {
+      "name":"Bladebrand",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/4/64d4713d-321a-447f-a318-88b552ec5d0c.jpg?1631132521"
+   },
+   {
+      "name":"Might of the Old Ways",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6a853679-e9dd-4c05-8688-248de8f12760.jpg?1630607954"
+   },
+   {
+      "name":"Nebelgast Intruder",
+      "type":"Creature — Spirit",
+      "colors":[
+         "U"
+      ],
+      "cmc":3,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c801346-0052-4f4b-a497-1567a34679fb.jpg?1631331266"
+   },
+   {
+      "name":"Return to Nature",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6e25c252-4177-4193-914c-b6933d9c0d7d.jpg?1631300517"
+   },
+   {
+      "name":"Bounding Wolf",
+      "type":"Creature — Wolf",
+      "colors":[
+         "G"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74e22ed6-9d39-4feb-8c64-64cdd8313816.jpg?1631300198"
+   },
+   {
+      "name":"Howl of the Hunt",
+      "type":"Enchantment — Aura",
+      "colors":[
+         "G"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7a48a42e-5cc5-4f9a-8745-99936f4cae5f.jpg?1630695571"
+   },
+   {
+      "name":"Spectral Adversary",
+      "type":"Creature — Spirit",
+      "colors":[
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"mythic",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/c/7c67fe04-814f-4051-bd13-7c8ee40a6c08.jpg?1630960490"
+   },
+   {
+      "name":"Stormrider Spirit",
+      "type":"Creature — Spirit",
+      "colors":[
+         "U"
+      ],
+      "cmc":5,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/8/1/81a95edb-9f5b-4e42-8b27-0b3d978dcefe.jpg?1631296237"
+   },
+   {
+      "name":"Revenge of the Drowned",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":4,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/93be7d72-927a-40ce-8de4-04a3f21c134b.jpg?1631294261"
+   },
+   {
+      "name":"Rotten Reunion",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":1,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97398ad2-675b-4a34-aab7-935dd6714f1c.jpg?1631303996"
+   },
+   {
+      "name":"Cathar Commando",
+      "type":"Creature — Human Soldier",
+      "colors":[
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98cbc1c2-b76e-4da3-aa43-00e10b2ce532.jpg?1631286011"
+   },
+   {
+      "name":"Arcane Infusion",
+      "type":"Instant",
+      "colors":[
+         "R",
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/a/9ab520b7-ad87-4c8e-a454-5c022e378564.jpg?1631058240"
+   },
+   {
+      "name":"Secrets of the Key",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":1,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9b022ba8-07b6-4993-99c8-89c6dcb19e60.jpg?1631331314"
+   },
+   {
+      "name":"Duel for Dominance",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9bb0a0c8-158e-4a6f-976e-3de9f57c3463.jpg?1631300381"
+   },
+   {
+      "name":"Olivia's Midnight Ambush",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c1adede-22ad-4c1c-9501-ad731fbe1742.jpg?1631297476"
+   },
+   {
+      "name":"Otherworldly Gaze",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":1,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cebee20-869e-45ed-9ddc-843faf4032ad.jpg?1631294190"
+   },
+   {
+      "name":"Thraben Exorcism",
+      "type":"Instant",
+      "colors":[
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/0/a0700298-30d2-45a6-bd64-4fd7fa4d7d30.jpg?1631206654"
+   },
+   {
+      "name":"Galvanic Iteration",
+      "type":"Instant",
+      "colors":[
+         "R",
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"rare",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5f8ee5b-e1f5-4bc8-8ca3-d8308d71f2b9.jpg?1631301047"
+   },
+   {
+      "name":"Cathartic Pyre",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b045c28a-39f9-4cd9-8f3a-a626b697f409.jpg?1631221911"
+   },
+   {
+      "name":"Loyal Gryff",
+      "type":"Creature — Hippogriff",
+      "colors":[
+         "W"
+      ],
+      "cmc":3,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b4d41ac4-3273-4722-aaa6-ceeba66cf591.jpg?1631299491"
+   },
+   {
+      "name":"Lunar Frenzy",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":1,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/5/b5fb18c4-1386-4ea0-97c1-4bdd1e7eb5a6.jpg?1630693909"
+   },
+   {
+      "name":"Sacred Fire",
+      "type":"Instant",
+      "colors":[
+         "R",
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c0b1dcd7-6dd9-4134-bc6c-9dc7754006a2.jpg?1631301151"
+   },
+   {
+      "name":"Defend the Celestus",
+      "type":"Instant",
+      "colors":[
+         "G"
+      ],
+      "cmc":4,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c11e4420-06f3-48e2-91d1-a9199483add2.jpg?1630909380"
+   },
+   {
+      "name":"Fading Hope",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":1,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c2fb1fff-12be-4bd5-8dba-c36e84d49651.jpg?1631221856"
+   },
+   {
+      "name":"Rite of Harmony",
+      "type":"Instant",
+      "colors":[
+         "G",
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"rare",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb1a16f9-13d4-4188-8e1e-0f2394349c7a.jpg?1631054389"
+   },
+   {
+      "name":"Siphon Insight",
+      "type":"Instant",
+      "colors":[
+         "B",
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"rare",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d329e2d4-e483-4981-8a0b-6a9a717d50cd.jpg?1631134122"
+   },
+   {
+      "name":"Memory Deluge",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":4,
+      "rarity":"rare",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc00fd1b-3dd9-492a-9ed4-0b6743074730.jpg?1631221971"
+   },
+   {
+      "name":"Stolen Vitality",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d50df2dd-8d14-4d92-ab4e-bf9f9f147e91.jpg?1631298880"
+   },
+   {
+      "name":"Ritual of Hope",
+      "type":"Instant",
+      "colors":[
+         "W"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8293903-4604-4516-866e-27a306b6fd7c.jpg?1631058149"
+   },
+   {
+      "name":"Neonate's Rush",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/dee17e12-e08f-4449-9f49-05f20e0d1670.jpg?1631298618"
+   },
+   {
+      "name":"Defenestrate",
+      "type":"Instant",
+      "colors":[
+         "B"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df3abdcc-83a8-45c3-9bfd-23f929705018.jpg?1631296825"
+   },
+   {
+      "name":"Corpse Cobble",
+      "type":"Instant",
+      "colors":[
+         "B",
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"uncommon",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfe4f48d-179a-47d7-aed6-9751dd2f7d8c.jpg?1631300960"
+   },
+   {
+      "name":"Raze the Effigy",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":1,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/0/e0dd378c-5050-48c9-9a16-6d91afa62d21.jpg?1631298798"
+   },
+   {
+      "name":"Moonrager's Slash",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb4f266b-c41c-4047-ae6f-b2226c7459e8.jpg?1631304154"
+   },
+   {
+      "name":"Sungold Barrage",
+      "type":"Instant",
+      "colors":[
+         "W"
+      ],
+      "cmc":3,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/e/ee507688-9890-47c4-bb04-43c51eb48e22.jpg?1630920979"
+   },
+   {
+      "name":"Geistwave",
+      "type":"Instant",
+      "colors":[
+         "U"
+      ],
+      "cmc":2,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0e3d1ac-bec2-4bba-a6cf-a823996dde2d.jpg?1631303739"
+   },
+   {
+      "name":"Burn the Accursed",
+      "type":"Instant",
+      "colors":[
+         "R"
+      ],
+      "cmc":5,
+      "rarity":"common",
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff4d4e6b-564d-46da-8e32-09ed08c8ddc5.jpg?1631298157"
+   }
 ]
