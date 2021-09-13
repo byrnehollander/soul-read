@@ -26,7 +26,7 @@ const Container = styled.div`
 
 const OptionsContainer = styled.div`
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   @media only screen and (max-width: 1485px) {
     flex-direction: column;
   }
@@ -187,16 +187,17 @@ const types = new Set(['Instant'])
 
 function App () {
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
-  const [maxCMC, setMaxCMC] = useState(3)
+  const [maxCMC, setMaxCMC] = useState(5)
+  const [combatRelevant, setCombatRelevant] = useState(false)
   const [groupByRarity, setGroupByRarity] = useState(true)
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
 
-  const getMatches = (types, maxCMC, colors) => {
-    return cards.filter(c => c.cmc <= maxCMC && hasColor(c, colors) && hasRarity(c, rarities))
+  const getMatches = (types, maxCMC, colors, combatRelevant) => {
+    return cards.filter(c => c.cmc <= maxCMC && hasColor(c, colors) && hasRarity(c, rarities) && (combatRelevant === false || c?.isCombatRelevant === true))
   }
 
-  const renderMatches = (types, maxCMC, colors) => {
-    const matches = getMatches(types, maxCMC, colors)
+  const renderMatches = (types, maxCMC, colors, combatRelevant) => {
+    const matches = getMatches(types, maxCMC, colors, combatRelevant)
     if (matches.length === 0) {
       return <TypographyShadow variant='h6' gutterBottom>No cards match your filters</TypographyShadow>
     }
@@ -587,12 +588,12 @@ function App () {
           </Tooltip>
           <SliderContainer>
             <Slider
-              defaultValue={3}
+              defaultValue={5}
               aria-labelledby='discrete-slider-always'
               step={1}
               marks
-              min={0}
-              max={8}
+              min={1}
+              max={5}
               valueLabelDisplay='on'
               onChange={(_, v) => {
                 if (v !== maxCMC) {
@@ -603,7 +604,20 @@ function App () {
           </SliderContainer>
         </ManaCostContainer>
       </OptionsContainer>
-      {renderMatches(types, maxCMC, colors)}
+      <div style={{marginBottom: 30}}>
+        <FormControlLabel
+          control={
+            <Switch
+              checked={combatRelevant}
+              onChange={() => setCombatRelevant(!combatRelevant)}
+              name='combat-relevant'
+              color='primary'
+            />
+      }
+          label='Combat relevant only'
+        />
+      </div>
+      {renderMatches(types, maxCMC, colors, combatRelevant)}
     </Container>
   )
 }
