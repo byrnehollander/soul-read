@@ -252,7 +252,7 @@ function App () {
                 >
                   <RarityRow>
                     {commons.length === 1 ? '1 Common' : `${commons.length} Commons`}
-                    <SetIconSmall className='ss ss-common ss-grad ss-mid' />
+                    <SetIconSmall className='ss ss-common ss-grad ss-vow' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -273,7 +273,7 @@ function App () {
                 >
                   <RarityRow>
                     {uncommons.length === 1 ? '1 Uncommon' : `${uncommons.length} Uncommons`}
-                    <SetIconSmall className='ss ss-uncommon ss-grad ss-mid' />
+                    <SetIconSmall className='ss ss-uncommon ss-grad ss-vow' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -294,7 +294,7 @@ function App () {
                 >
                   <RarityRow>
                     {rares.length === 1 ? '1 Rare' : `${rares.length} Rares`}
-                    <SetIconSmall className='ss ss-rare ss-grad ss-mid' />
+                    <SetIconSmall className='ss ss-rare ss-grad ss-vow' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -315,7 +315,7 @@ function App () {
                 >
                   <RarityRow>
                     {mythics.length === 1 ? '1 Mythic' : `${mythics.length} Mythics`}
-                    <SetIconSmall className='ss ss-mythic ss-grad ss-mid' />
+                    <SetIconSmall className='ss ss-mythic ss-grad ss-vow' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -522,12 +522,12 @@ function App () {
             {rarities.has('common')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-                  <SetIconLarge className='ss ss-common ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-common ss-grad ss-vow' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-                  <SetIconLarge className='ss ss-common ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-common ss-grad ss-vow' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -535,12 +535,12 @@ function App () {
             {rarities.has('uncommon')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-                  <SetIconLarge className='ss ss-uncommon ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-uncommon ss-grad ss-vow' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-                  <SetIconLarge className='ss ss-uncommon ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-uncommon ss-grad ss-vow' />
                 </UnselectedIconButton>
                 )}
 
@@ -549,12 +549,12 @@ function App () {
             {rarities.has('rare')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-                  <SetIconLarge className='ss ss-rare ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-rare ss-grad ss-vow' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-                  <SetIconLarge className='ss ss-rare ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-rare ss-grad ss-vow' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -562,12 +562,12 @@ function App () {
             {rarities.has('mythic')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-                  <SetIconLarge className='ss ss-mythic ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-mythic ss-grad ss-vow' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-                  <SetIconLarge className='ss ss-mythic ss-grad ss-mid' />
+                  <SetIconLarge className='ss ss-mythic ss-grad ss-vow' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>

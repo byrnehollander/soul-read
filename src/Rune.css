@@ -236,3 +236,7 @@
 .ss-duo.ss-mid::after {
   content: "\e979";
 }
+
+.ss-vow:before {
+  content: "\e977";
+}
