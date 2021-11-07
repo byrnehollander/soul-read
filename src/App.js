@@ -185,9 +185,11 @@ const UnselectedIconButton = styled(IconButton)`
 
 const types = new Set(['Instant'])
 
+const MAX_CMC = 7
+
 function App () {
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
-  const [maxCMC, setMaxCMC] = useState(5)
+  const [maxCMC, setMaxCMC] = useState(MAX_CMC)
   const [combatRelevant, setCombatRelevant] = useState(false)
   const [groupByRarity, setGroupByRarity] = useState(true)
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
@@ -588,12 +590,12 @@ function App () {
           </Tooltip>
           <SliderContainer>
             <Slider
-              defaultValue={7}
+              defaultValue={MAX_CMC}
               aria-labelledby='discrete-slider-always'
               step={1}
               marks
               min={1}
-              max={7}
+              max={MAX_CMC}
               valueLabelDisplay='on'
               onChange={(_, v) => {
                 if (v !== maxCMC) {
