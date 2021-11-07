@@ -12,7 +12,7 @@ import styled from 'styled-components'
 import Tilty from 'react-tilty'
 import './App.css'
 import './Rune.css'
-import cards from './MID.json'
+import cards from './VOW.json'
 import { ReactComponent as Black } from './assets/black.svg'
 import { ReactComponent as Blue } from './assets/blue.svg'
 import { ReactComponent as Colorless } from './assets/colorless.svg'
@@ -588,12 +588,12 @@ function App () {
           </Tooltip>
           <SliderContainer>
             <Slider
-              defaultValue={5}
+              defaultValue={7}
               aria-labelledby='discrete-slider-always'
               step={1}
               marks
               min={1}
-              max={5}
+              max={7}
               valueLabelDisplay='on'
               onChange={(_, v) => {
                 if (v !== maxCMC) {

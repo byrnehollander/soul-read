@@ -1,0 +1,492 @@
+[
+  {
+     "name":"Wolf Strike",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "G"
+     ],
+     "cmc":3,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02e9cd00-7ffd-44e1-aa0f-c94489ff4a0f.jpg?1636117780"
+  },
+  {
+     "name":"Parasitic Grasp",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "B"
+     ],
+     "cmc":2,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/0713adf7-1770-4d5b-80f7-d6cbd24f7890.jpg?1635891611"
+  },
+  {
+     "name":"Syncopate",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":1,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/08375017-4432-4296-9799-966db145ed7c.jpg?1635929003"
+  },
+  {
+     "name":"Witch's Web",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "G"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d021207-76be-4bc9-bb71-df991a04d8d8.jpg?1636117729"
+  },
+  {
+     "name":"Valorous Stance",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "W"
+     ],
+     "cmc":2,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e6b9a3b-8a19-4094-8dbb-08a0a9ca04a0.jpg?1635606577"
+  },
+  {
+     "name":"Lunar Rejection",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":2,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0f66511c-355f-4e8a-96fc-3afc7a315231.jpg?1635928937"
+  },
+  {
+     "name":"Sure Strike",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "R"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/d/1d872736-fafb-44e8-a809-48c5436c665a.jpg?1636116687"
+  },
+  {
+     "name":"Thirst for Discovery",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1ea179e9-9c0d-46c1-9ee8-60be68e1f79c.jpg?1636114688"
+  },
+  {
+     "name":"Vampires' Vengeance",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "R"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/20d2d886-13a2-44f1-966a-ec674622fd01.jpg?1635930712"
+  },
+  {
+     "name":"Hullbreaker Horror",
+     "type":"Creature — Kraken Horror",
+     "keywords":[
+        "Flash"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":7,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/2/e/2e073047-fba8-41bd-b260-1eefb084fc80.jpg?1636038984"
+  },
+  {
+     "name":"Winged Portent",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/3494a4fc-37e5-4095-a3bb-5cd9280f4c77.jpg?1636114738"
+  },
+  {
+     "name":"Massive Might",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "G"
+     ],
+     "cmc":1,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a5cd50b-4825-4d85-b0f9-e2a51d2a7df1.jpg?1635453101"
+  },
+  {
+     "name":"Bleed Dry",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "B"
+     ],
+     "cmc":4,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3db65755-f104-4de9-bcc9-0a4a7bc66b51.jpg?1636114905"
+  },
+  {
+     "name":"Cradle of Safety",
+     "type":"Enchantment — Aura",
+     "keywords":[
+        "Enchant",
+        "Flash"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/42cbad81-152a-435f-9289-f4b6483a059b.jpg?1636129933"
+  },
+  {
+     "name":"Wash Away",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":1,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/43411ade-be80-4535-8baa-7055e78496df.jpg?1635992940"
+  },
+  {
+     "name":"Syphon Essence",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/435a2d31-ac2c-45aa-8369-6c2d6fbba4e4.jpg?1636114667"
+  },
+  {
+     "name":"Hullbreaker Horror",
+     "type":"Creature — Kraken Horror",
+     "keywords":[
+        "Flash"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":7,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b546bcf-2e86-42af-bf32-81c7fd36ef8c.jpg?1636038968"
+  },
+  {
+     "name":"Rending Flame",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "R"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/51332c31-41df-4379-aa63-6a734a4df618.jpg?1636208685"
+  },
+  {
+     "name":"Piercing Light",
+     "type":"Instant",
+     "keywords":[
+        "Scry"
+     ],
+     "colors":[
+        "W"
+     ],
+     "cmc":1,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54cc4e2b-1497-4788-afb4-9e42b7683b5a.jpg?1636119099"
+  },
+  {
+     "name":"Geistlight Snare",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5a081700-a29a-40ff-a198-00d32f0ea11d.jpg?1635453877"
+  },
+  {
+     "name":"Overcharged Amalgam",
+     "type":"Creature — Zombie Horror",
+     "keywords":[
+        "Flying",
+        "Flash",
+        "Exploit"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":4,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f8d93bf-8836-469e-a28c-39633959a212.jpg?1635453901"
+  },
+  {
+     "name":"Chill of the Grave",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/60222e91-a688-4113-a8c2-ab08f52bb6e1.jpg?1636113988"
+  },
+  {
+     "name":"Geistlight Snare",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/7302b5da-cac5-4ce7-ad38-2ff4e410891b.jpg?1635454609"
+  },
+  {
+     "name":"Cemetery Protector",
+     "type":"Creature — Human Soldier",
+     "keywords":[
+        "Flash"
+     ],
+     "colors":[
+        "W"
+     ],
+     "cmc":4,
+     "rarity":"mythic",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/8/a/8aa2f823-d66d-42b0-ab3c-180b9a927cb1.jpg?1635606771"
+  },
+  {
+     "name":"Undying Malice",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "B"
+     ],
+     "cmc":1,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/8/e/8eb38041-043a-4b18-9d9a-f1283684e8f1.jpg?1636131216"
+  },
+  {
+     "name":"Lantern Flare",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "W"
+     ],
+     "cmc":2,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95751a49-398b-4d95-9475-2bdfed9b791b.jpg?1635891324"
+  },
+  {
+     "name":"Fierce Retribution",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "W"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/9597b163-5c6b-4f64-b1f1-5f1fa2e23e5d.jpg?1636119083"
+  },
+  {
+     "name":"Vampires' Vengeance",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "R"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f4ba693-0323-415d-ad91-c083fbbab7f7.jpg?1636069531"
+  },
+  {
+     "name":"Abrade",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "R"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/a/0/a0e47d11-cb21-402b-a39e-588a94cc57b4.jpg?1635791665"
+  },
+  {
+     "name":"Flame-Blessed Bolt",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "R"
+     ],
+     "cmc":1,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/1/b1771a8f-7bea-4bb0-9949-566ee6613b93.jpg?1636119238"
+  },
+  {
+     "name":"Thirst for Discovery",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/1/b1ed095e-6b77-4262-a2fa-d04dde96f9e4.jpg?1636069467"
+  },
+  {
+     "name":"Serpentine Ambush",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b8214b1c-29f8-4986-89ac-2d7fc929edf3.jpg?1636114415"
+  },
+  {
+     "name":"Winged Portent",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":3,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b8b369e3-5057-49ff-b87e-1126571334f5.jpg?1635986037"
+  },
+  {
+     "name":"Adamant Will",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "W"
+     ],
+     "cmc":2,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd091f3e-5fcc-4d12-b0c3-3b6340ab01d8.jpg?1636110000"
+  },
+  {
+     "name":"Cemetery Protector",
+     "type":"Creature — Human Soldier",
+     "keywords":[
+        "Flash"
+     ],
+     "colors":[
+        "W"
+     ],
+     "cmc":4,
+     "rarity":"mythic",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c00731eb-69fe-42f3-9919-66a4cdec00f7.jpg?1635606744"
+  },
+  {
+     "name":"Hero's Downfall",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "B"
+     ],
+     "cmc":3,
+     "rarity":"uncommon",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c1b0751e-3a7e-4568-8c64-7429d6829687.jpg?1636110564"
+  },
+  {
+     "name":"Overcharged Amalgam",
+     "type":"Creature — Zombie Horror",
+     "keywords":[
+        "Flying",
+        "Flash",
+        "Exploit"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":4,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/dbbcd63d-6c25-47a6-a76c-ac53bf12949c.jpg?1635446176"
+  },
+  {
+     "name":"Scattered Thoughts",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "U"
+     ],
+     "cmc":4,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc5c6675-6e0f-427d-9399-a6e7fc6215f1.jpg?1635890613"
+  },
+  {
+     "name":"Lantern Flare",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "W"
+     ],
+     "cmc":2,
+     "rarity":"rare",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfd59300-7b5c-4263-a7fd-775c9fcb05ad.jpg?1635975892"
+  },
+  {
+     "name":"Crushing Canopy",
+     "type":"Instant",
+     "keywords":[],
+     "colors":[
+        "G"
+     ],
+     "cmc":3,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/eae67d98-5167-442b-8586-0b2bcb0c56eb.jpg?1636117015"
+  },
+  {
+     "name":"Alchemist's Retrieval",
+     "type":"Instant",
+     "keywords":[
+        "Cleave"
+     ],
+     "colors":[
+        "U"
+     ],
+     "cmc":1,
+     "rarity":"common",
+     "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/edbf9d4f-6027-40b8-81c1-7f001a9119dd.jpg?1636113921"
+  }
+]
