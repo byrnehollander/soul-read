@@ -227,8 +227,22 @@
      ],
      "cmc":1,
      "rarity":"common",
-      "isCombatRelevant": true,
+     "isCombatRelevant": true,
      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54cc4e2b-1497-4788-afb4-9e42b7683b5a.jpg?1636119099"
+  },
+  {
+   "name":"Supernatural Rescue",
+   "type":"Enchantment — Aura",
+   "keywords":[
+      "Enchant"
+   ],
+   "colors":[
+      "W"
+   ],
+   "cmc":4,
+   "rarity":"common",
+   "isCombatRelevant": true,
+   "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/960ca69c-916d-4af3-82a4-5f6fb614d6a4.jpg?1636113696"
   },
   {
      "name":"Chill of the Grave",
