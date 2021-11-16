@@ -213,17 +213,6 @@
       "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c801346-0052-4f4b-a497-1567a34679fb.jpg?1631331266"
    },
    {
-      "name":"Oakshade Stalker",
-      "type":"Creature - Human Ranger Werewolf",
-      "colors":[
-         "G"
-      ],
-      "cmc":5,
-      "rarity":"uncommon",
-      "isCombatRelevant": true,
-      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8bcaa944-4e45-457c-be9c-07377b6ed08b.jpg?1636208764"
-   },
-   {
       "name":"Return to Nature",
       "type":"Instant",
       "colors":[

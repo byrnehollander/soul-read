@@ -217,6 +217,17 @@
      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/51332c31-41df-4379-aa63-6a734a4df618.jpg?1636208685"
   },
   {
+     "name":"Oakshade Stalker",
+     "type":"Creature - Human Ranger Werewolf",
+     "colors":[
+        "G"
+      ],
+      "cmc":5,
+      "rarity":"uncommon",
+      "isCombatRelevant": true,
+      "image":"https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8bcaa944-4e45-457c-be9c-07377b6ed08b.jpg?1636208764"
+   },
+  {
      "name":"Piercing Light",
      "type":"Instant",
      "keywords":[
