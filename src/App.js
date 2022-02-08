@@ -12,7 +12,7 @@ import styled from 'styled-components'
 import Tilty from 'react-tilty'
 import './App.css'
 import './Rune.css'
-import cards from './VOW.json'
+import cards from './NEO.json'
 import { ReactComponent as Black } from './assets/black.svg'
 import { ReactComponent as Blue } from './assets/blue.svg'
 import { ReactComponent as Colorless } from './assets/colorless.svg'
@@ -190,7 +190,8 @@ const MAX_CMC = 7
 function App () {
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
   const [maxCMC, setMaxCMC] = useState(MAX_CMC)
-  const [combatRelevant, setCombatRelevant] = useState(false)
+  // const [combatRelevant, setCombatRelevant] = useState(false)
+  const combatRelevant = false
   const [groupByRarity, setGroupByRarity] = useState(true)
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
 
@@ -252,7 +253,7 @@ function App () {
                 >
                   <RarityRow>
                     {commons.length === 1 ? '1 Common' : `${commons.length} Commons`}
-                    <SetIconSmall className='ss ss-common ss-grad ss-vow' />
+                    <SetIconSmall className='ss ss-common ss-grad ss-neo' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -273,7 +274,7 @@ function App () {
                 >
                   <RarityRow>
                     {uncommons.length === 1 ? '1 Uncommon' : `${uncommons.length} Uncommons`}
-                    <SetIconSmall className='ss ss-uncommon ss-grad ss-vow' />
+                    <SetIconSmall className='ss ss-uncommon ss-grad ss-neo' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -294,7 +295,7 @@ function App () {
                 >
                   <RarityRow>
                     {rares.length === 1 ? '1 Rare' : `${rares.length} Rares`}
-                    <SetIconSmall className='ss ss-rare ss-grad ss-vow' />
+                    <SetIconSmall className='ss ss-rare ss-grad ss-neo' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -315,7 +316,7 @@ function App () {
                 >
                   <RarityRow>
                     {mythics.length === 1 ? '1 Mythic' : `${mythics.length} Mythics`}
-                    <SetIconSmall className='ss ss-mythic ss-grad ss-vow' />
+                    <SetIconSmall className='ss ss-mythic ss-grad ss-neo' />
                   </RarityRow>
                 </Typography>
                 <FlexContainer>
@@ -522,12 +523,12 @@ function App () {
             {rarities.has('common')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-                  <SetIconLarge className='ss ss-common ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-common ss-grad ss-neo' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-                  <SetIconLarge className='ss ss-common ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-common ss-grad ss-neo' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -535,12 +536,12 @@ function App () {
             {rarities.has('uncommon')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-                  <SetIconLarge className='ss ss-uncommon ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-uncommon ss-grad ss-neo' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-                  <SetIconLarge className='ss ss-uncommon ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-uncommon ss-grad ss-neo' />
                 </UnselectedIconButton>
                 )}
 
@@ -549,12 +550,12 @@ function App () {
             {rarities.has('rare')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-                  <SetIconLarge className='ss ss-rare ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-rare ss-grad ss-neo' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-                  <SetIconLarge className='ss ss-rare ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-rare ss-grad ss-neo' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -562,12 +563,12 @@ function App () {
             {rarities.has('mythic')
               ? (
                 <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-                  <SetIconLarge className='ss ss-mythic ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-mythic ss-grad ss-neo' />
                 </SelectedRarityIconButton>
                 )
               : (
                 <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-                  <SetIconLarge className='ss ss-mythic ss-grad ss-vow' />
+                  <SetIconLarge className='ss ss-mythic ss-grad ss-neo' />
                 </UnselectedIconButton>
                 )}
           </Tooltip>
@@ -606,7 +607,7 @@ function App () {
           </SliderContainer>
         </ManaCostContainer>
       </OptionsContainer>
-      <div style={{marginBottom: 30}}>
+      {/* <div style={{marginBottom: 30}}>
         <FormControlLabel
           control={
             <Switch
@@ -618,7 +619,7 @@ function App () {
       }
           label='Combat relevant only'
         />
-      </div>
+      </div> */}
       {renderMatches(types, maxCMC, colors, combatRelevant)}
     </Container>
   )
